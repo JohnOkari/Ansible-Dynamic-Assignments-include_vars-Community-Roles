@@ -366,7 +366,7 @@ ansible-galaxy install -r requirements.yml -p roles/
 # Run playbook for specific inventory
 ansible-playbook -i inventory/uat.ini playbooks/site.yml
 
-[Images](images/image.png)
+ !![Images](images/image.png)
 
 # Dry run
 ansible-playbook -i inventory/uat playbooks/site.yml --check
