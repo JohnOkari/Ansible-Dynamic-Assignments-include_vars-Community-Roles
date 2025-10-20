@@ -376,11 +376,3 @@ git checkout -b roles-feature
   ![Image 1](images/image1.png)
 
 ---
-
-If you want, I can also:
-
-* generate a `requirements.yml` pinned to specific versions for the roles you choose,
-* add an example `static-assignments/database.yml` and `static-assignments/webservers.yml`, or
-* produce a short Jenkins pipeline to automatically `ansible-galaxy install -r requirements.yml` and run tests.
-
-Happy to extend this README into docs, examples, or CI — tell me which next step you want.
